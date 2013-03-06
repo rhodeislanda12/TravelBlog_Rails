@@ -1,0 +1,1 @@
+Monologue::User.create(name: "blake", email:"blake.rego@gmail.com", password:"blake.rego@gmail.com", password_confirmation: "blake.rego@gmail.com")
