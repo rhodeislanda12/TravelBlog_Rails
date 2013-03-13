@@ -7,6 +7,7 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
+gem 'haml-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,7 +23,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'monologue'
+gem 'monologue', :path => "gems/monologue"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -38,3 +39,9 @@ gem 'monologue'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do 
+  gem 'better_errors'
+  gem 'binding_of_caller' #Only use this if on a trusted network.
+end
+
