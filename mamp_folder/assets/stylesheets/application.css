@@ -1,0 +1,121 @@
+.body-background
+{
+	background-color: #000000;
+}
+
+.white
+{
+	background-color: #ffffff;	
+}
+
+.container
+{
+	width:990px;
+	background-color: #ffffff;
+}
+
+#header_title
+{
+	font-size: 70px;
+	font-family: 'Cedarville Cursive', cursive;
+	padding-left: 20px;
+}
+
+#location_announce
+{
+	font-size: 20px;
+	font-family: 'Sintony', sans-serif;
+}
+
+.header
+{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.subheader
+{
+	font-size: 16px;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-left: 20px;
+	font-family: 'Sintony', sans-serif;
+}
+
+.nav li
+{
+	width:12%;
+	text-align: center;
+}
+
+.navbar .nav li a
+{
+	color:black;
+}
+
+
+ .navbar-inner
+{
+    background:white !important;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+    width: 990px;
+    padding: 0px;
+}
+
+.navbar-inner .container
+{
+    background:white !important;
+    width:990px;
+}
+
+.navbar
+{
+    background:white !important;
+    margin-bottom: 0px;
+}
+
+.navbar .divider-vertical
+{
+	border-left: 1px solid #DDD;
+}
+
+.post-row
+{
+	margin-left: 15px;
+}
+
+.blog-post
+{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+	padding-left: 10px;
+}
+
+.post-thumbnail
+{
+	padding: 5px;
+	border: 1px solid #CCC;
+	margin-left: 10px;
+}
+
+.post-text
+{
+	margin-left: 8px;
+}
+
+.widget h3
+{
+	background: #000000;
+	color:#ffffff;
+	border-radius: 4px;
+	text-align: center;
+}
+
+
