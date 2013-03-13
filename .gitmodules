@@ -1,0 +1,3 @@
+[submodule "gems/monologue"]
+	path = gems/monologue
+	url = git@github.com:blakerego/monologue.git
