@@ -60,7 +60,6 @@
 						<h2>Post title</h2>
 						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
 					</div>	
-					<a class="btn pull-right btn-inverse" href="#">Read More</a>
 				</div>	
 			</div>	
 			<!--end blog post-->
@@ -74,7 +73,6 @@
 						<h2>Post title</h2>
 						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
 					</div>	
-					<a class="btn pull-right btn-inverse" href="#">Read More</a>
 				</div>	
 			</div>	
 			<!--end blog post-->
@@ -88,26 +86,55 @@
 						<h2>Post title</h2>
 						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
 					</div>	
-					<a class="btn pull-right btn-inverse" href="#">Read More</a>
 				</div>	
 			</div>	
 			<!--end blog post-->
+			<div class="blog-post">
+				<div class="row">
+					<div class="post-thumbnail span3">
+						<img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here">
+					</div>	
+					<div class="post-text span5">
+						<h2>Post title</h2>
+						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
+					</div>	
+				</div>	
+			</div>	
+
 		</div>
 		<!--end all posts-->
 		<aside class= "span4">
 			<div class="row">
 				<div class="widget span 4">
 					<h3>About Us</h3>
-					<p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.</p>
+					<span id="about-image"><img src="assets/images/about-photo.png"></span>
+					<p>Michelle and Blake currently live in New York City and work as a lawyer and software engineer respectively. They are planning on beginning their round the world travels in Fall 2013. This blog will help keep their family and friends up to date with their adventures!</p>
 				</div>	
 				<div class="widget span 4">
-					<h3>Social Media</h3>
-					<p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.</p>
+					<h3>Stay in Touch</h3>
+					<div class="icons">
+						<a href="http://www.facebook.com/michelle.rittner" class="facebook" title="Facebook Link"></a>
+						<a href="https://twitter.com/mrittner" class="twitter" title="Twitter Link"></a>
+						<a href="#" class="stumbleupon" title="Stumble Link"></a>
+						<a href="#" class="rss" title="RSS Link"></a>
+					</div>
 				</div>
+				<div class="widget span4">
+					<h3>Popular Posts</h3>
+					<ul>
+						<li><a href="#">Most Popular Most Goes Here</a></li>
+						<li><a href="#">Second Most Popular Post Goes Here</a></li>
+						<li><a href="#">Third Most Popular Post Goes Here</a></li>
+						<li><a href="#">Fourth Most Popular Post Goes Here</a></li>
+						<li><a href="#">Fifth Most Popular Post Goes Here</a></li>
+					</ul>	
+				</div>
+				<div class="widget span4">
+					<h3>Tag Cloud</h3>
+				</div>	
 			</div>	
 		</aside>	
 	</div>
-	<br><br><br><br><br><br><br><br><br>
 </div>	
 
 
