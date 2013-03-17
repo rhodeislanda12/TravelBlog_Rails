@@ -1,0 +1,234 @@
+body 
+{
+	font-family: 'Sintony', sans-serif;
+}
+
+.body-background
+{
+	background-image: url("/assets/images/black_twill.png");
+	background-repeat:repeat;
+}
+
+.white
+{
+	background-color: #ffffff;	
+}
+
+.container
+{
+	width:990px;
+	background-color: #ffffff;
+}
+
+#header_title
+{
+	font-size: 70px;
+	font-family: 'Happy Monkey', cursive;
+	padding-left: 20px;
+	color: #000000;
+}
+
+#location_announce
+{
+	font-size: 17px;
+	font-family: 'Sintony', sans-serif;
+}
+
+#current-city
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.header
+{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.subheader
+{
+	font-size: 16px;
+	padding-left: 20px;
+	padding-top: 0px;
+	margin-left: 35px;
+	font-family: 'Sintony', sans-serif;
+}
+
+.nav li
+{
+	width:12%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.navbar .nav li a
+{
+	color:black;
+}
+
+.navbar .nav li a:hover
+{
+	color:#438bc9;
+}
+
+
+ .navbar-inner
+{
+    background:white !important;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+    width: 990px;
+    padding: 0px;
+}
+
+.navbar-inner .container
+{
+    background:white !important;
+    width:990px;
+}
+
+.navbar
+{
+    background:white !important;
+    margin-bottom: 0px;
+}
+
+.navbar .divider-vertical
+{
+	border-left: 1px solid #DDD;
+}
+
+.post-row
+{
+	margin-left: 15px;
+}
+
+.blog-post
+{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+	padding-left: 10px;
+}
+
+.post-thumbnail
+{
+	padding: 5px;
+	border: 1px solid #CCC;
+	margin-left: 10px;
+}
+
+.post-text
+{
+	margin-left: 8px;
+}
+
+.post-text h2
+{
+	color: #333333;
+}
+
+.widget h3
+{
+	background: #000000;
+	border: 3px solid #438bc9;
+	color:#ffffff;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.widget li a 
+{
+	color: #333333;
+}
+
+
+#about-image
+{
+	float: right;
+	padding: 5px;
+	border: 1px solid #CCC;
+	margin: 5px;
+}
+
+.icons
+{
+	float: center;
+	padding-left: 22px;
+	padding-right: 22px;
+	margin-bottom: 20px;
+}
+
+.facebook
+{
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	width: 60px;
+	height: 60px;
+	float: left;
+	display: block;
+	background:transparent url('/assets/images/facebook-icon.png') center top no-repeat;
+}
+
+.facebook:hover 
+{
+   background-image: url('/assets/images/facebook-green.png');
+}
+
+.twitter
+{
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: block;
+	background:transparent url('/assets/images/twitter-icon.png') center top no-repeat;
+}
+
+.twitter:hover
+{
+	background-image: url('/assets/images/twitter-green.png');
+}
+
+.stumbleupon
+{
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: block;
+	background:transparent url('/assets/images/stumbleupon-icon.png') center top no-repeat;
+}
+
+.stumbleupon:hover
+{
+	background-image: url('/assets/images/stumbleupon-green.png');
+}
+
+.rss
+{
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: block;
+	background:transparent url('/assets/images/rss-icon.png') center top no-repeat;
+}
+
+.rss:hover
+{
+	background-image: url('/assets/images/rss-green.png');
+}
