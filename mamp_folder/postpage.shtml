@@ -1,0 +1,68 @@
+<!--#include virtual="header.html" -->
+
+<div class="container">
+	<div class="row post-row">
+		<!--blog posts start below-->
+		<div class="span8">
+			<!--one blog post-->
+			<div class="full-post-title">
+				<h1>Post Title</h1>
+				<div class="post-date">Posted on March 17, 2013</div>
+				<div class="keywords-posttitle">
+					<span id="no-italic">Keywords:</span>  Istanbul, Turkey, Cats
+				</div>	
+			</div>
+				<div class="indent"><p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
+				<div class="post-image">
+					<div class="image-holder">
+						<img src="assets/images/post-pic.png">
+					</div>
+					<div class="caption">
+						<p>Caption here.</p>
+					</div>	
+				</div>	
+				<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
+				</div>
+		</div>
+		<!--end all posts-->
+		<aside class= "span4">
+			<div class="row">
+				<div class="widget span 4">
+					<h3>About Us</h3>
+					<span id="about-image"><img src="assets/images/about-photo.png"></span>
+					<p>Michelle and Blake currently live in New York City and work as a lawyer and software engineer respectively. They are planning on beginning their round the world travels in Fall 2013. This blog will help keep their family and friends up to date with their adventures!</p>
+				</div>	
+				<div class="widget span 4">
+					<h3>Stay in Touch</h3>
+					<div class="icons">
+						<a href="http://www.facebook.com/michelle.rittner" class="facebook" title="Facebook Link"></a>
+						<a href="https://twitter.com/mrittner" class="twitter" title="Twitter Link"></a>
+						<a href="#" class="stumbleupon" title="Stumble Link"></a>
+						<a href="#" class="rss" title="RSS Link"></a>
+					</div>
+				</div>
+				<div class="widget span4">
+					<h3>Popular Posts</h3>
+					<ul>
+						<li><a href="#">Most Popular Most Goes Here</a></li>
+						<li><a href="#">Second Most Popular Post Goes Here</a></li>
+						<li><a href="#">Third Most Popular Post Goes Here</a></li>
+						<li><a href="#">Fourth Most Popular Post Goes Here</a></li>
+						<li><a href="#">Fifth Most Popular Post Goes Here</a></li>
+					</ul>	
+				</div>
+				<div class="widget span4">
+					<h3>Keywords</h3>
+				</div>	
+			</div>	
+		</aside>	
+	</div>
+
+</div>	
+
+
+
+
+
+
+<!--#include virtual="footer.html" -->

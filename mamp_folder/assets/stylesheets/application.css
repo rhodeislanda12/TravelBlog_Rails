@@ -134,6 +134,12 @@ body
 	color: #333333;
 }
 
+.post-date
+{
+	font-size: 10px;
+	font-style: italic;
+}
+
 .widget h3
 {
 	background: #000000;
@@ -179,7 +185,7 @@ body
 
 .facebook:hover 
 {
-   background-image: url('/assets/images/facebook-green.png');
+   background-image: url('/assets/images/facebook-light.png');
 }
 
 .twitter
@@ -196,7 +202,7 @@ body
 
 .twitter:hover
 {
-	background-image: url('/assets/images/twitter-green.png');
+	background-image: url('/assets/images/twitter-light.png');
 }
 
 .stumbleupon
@@ -213,7 +219,7 @@ body
 
 .stumbleupon:hover
 {
-	background-image: url('/assets/images/stumbleupon-green.png');
+	background-image: url('/assets/images/stumbleupon-light.png');
 }
 
 .rss
@@ -230,5 +236,59 @@ body
 
 .rss:hover
 {
-	background-image: url('/assets/images/rss-green.png');
+	background-image: url('/assets/images/rss-light.png');
+}
+
+.older-posts a
+{
+	color: #333;
+	font-size: 16px;
+}
+
+.older-posts
+{
+	padding-top: 20px;
+}
+
+.full-post-title h1
+{
+	font-size: 40px;
+}
+
+.keywords-posttitle
+{
+	font-size: 10px;
+	font-style: italic;
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+}
+
+.no-italic
+{
+	font-style: none;
+}
+
+.indent p
+{
+	text-indent: 50px;
+}
+
+.post-image
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 9px 9px 0px 9px;
+	border: 1px solid #CCC;
+}
+
+.image-holder
+{
+	width: 600px;
+	height: 460px;
+}
+
+.caption p
+{
+	font-size: 12px;
+	text-indent: 0px;
 }

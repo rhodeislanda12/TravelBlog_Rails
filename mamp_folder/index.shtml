@@ -54,11 +54,12 @@
 			<div class="blog-post">
 				<div class="row">
 					<div class="post-thumbnail span3">
-						<img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here">
+						<a href="postpage.shtml"><img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here"></a>
 					</div>	
 					<div class="post-text span5">
-						<h2>Post title</h2>
-						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
+						<h2><a href="postpage.shtml">Post title</a></h2>
+						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p><br>
+            <div class="post-date"><p> Posted March 17, 2013</p></div>
 					</div>	
 				</div>	
 			</div>	
@@ -67,40 +68,50 @@
 			<div class="blog-post">
 				<div class="row">
 					<div class="post-thumbnail span3">
-						<img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here">
-					</div>	
-					<div class="post-text span5">
-						<h2>Post title</h2>
-						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
-					</div>	
-				</div>	
-			</div>	
-			<!--end blog post-->
-			<!--one blog post-->
-			<div class="blog-post">
-				<div class="row">
-					<div class="post-thumbnail span3">
-						<img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here">
-					</div>	
-					<div class="post-text span5">
-						<h2>Post title</h2>
-						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
-					</div>	
-				</div>	
-			</div>	
-			<!--end blog post-->
-			<div class="blog-post">
-				<div class="row">
-					<div class="post-thumbnail span3">
-						<img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here">
-					</div>	
-					<div class="post-text span5">
-						<h2>Post title</h2>
-						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
-					</div>	
-				</div>	
-			</div>	
+						<a href="#"><img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here"></a>
+					</div>
 
+					<div class="post-text span5">
+						<h2><a href="#">Post title</a></h2>
+						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p><br>
+            <div class="post-date"><p> Posted March 17, 2013</p></div>
+					</div>	
+				</div>	
+			</div>	
+			<!--end blog post-->
+			<!--one blog post-->
+			<div class="blog-post">
+				<div class="row">
+					<div class="post-thumbnail span3">
+						<a href="#"><img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here"></a>
+					</div>	
+					<div class="post-text span5">
+						<h2><a href="#">Post title</a></h2>
+						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p><br>
+            <div class="post-date"><p> Posted March 17, 2013</p></div>
+					</div>	
+				</div>	
+			</div>	
+			<!--end blog post-->
+			<div class="blog-post">
+				<div class="row">
+					<div class="post-thumbnail span3">
+						<a href="#"><img src="assets/images/thumb_post.jpg" title="featured image" alt="an image was here"></a>
+					</div>	
+					<div class="post-text span5">
+						<h2><a href="#">Post title</a></h2>
+						<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p><br>
+            <div class="post-date"><p> Posted March 17, 2013</p></div>
+					</div>	
+				</div>	
+			</div>	
+      <div class="older-posts">
+        <div class="row">
+            <div class="span3 offset3">
+              <a href="#">Older Posts>></a>
+            </div>
+        </div>
+      </div>  <br><br>
 		</div>
 		<!--end all posts-->
 		<aside class= "span4">
@@ -130,27 +141,13 @@
 					</ul>	
 				</div>
 				<div class="widget span4">
-					<h3>Tag Cloud</h3>
+					<h3>Keywords</h3>
 				</div>	
 			</div>	
 		</aside>	
 	</div>
+
 </div>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
