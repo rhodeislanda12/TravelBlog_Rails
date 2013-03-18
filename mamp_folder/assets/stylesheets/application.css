@@ -292,3 +292,8 @@ body
 	font-size: 12px;
 	text-indent: 0px;
 }
+
+.post-subtitle
+{
+	font-size: 10px;
+}

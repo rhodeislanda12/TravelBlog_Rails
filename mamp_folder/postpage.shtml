@@ -7,7 +7,7 @@
 			<!--one blog post-->
 			<div class="full-post-title">
 				<h1>Post Title</h1>
-				<div class="post-date">Posted on March 17, 2013</div>
+				<div class="post-subtitle">By: Michelle Rittner | Posted on March 17, 2013</div>
 				<div class="keywords-posttitle">
 					<span id="no-italic">Keywords:</span>  Istanbul, Turkey, Cats
 				</div>	
