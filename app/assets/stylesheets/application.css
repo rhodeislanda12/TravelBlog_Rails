@@ -14,13 +14,8 @@
 
 
 @font-face {
-    font-family: "Didot";
-    src: url("../fonts/TheanoDidot_Regular.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "Cedarville";
-    src: url("../fonts/Cedarville-Cursive.ttf") format("truetype");
+    src: url("Cedarville-Cursive.ttf") format("truetype");
 }
 
 #doc-contain
@@ -51,7 +46,7 @@
 
 }
 
-#header-text
+#header-text p
 {
   position: absolute;
   width:100%;
@@ -63,6 +58,7 @@
   color: #555;
   font-family: "Cedarville";
 }
+
 
 #side-contain
 {
