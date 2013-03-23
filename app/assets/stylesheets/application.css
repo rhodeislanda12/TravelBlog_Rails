@@ -74,7 +74,7 @@
 
 #menu-text
 {
-  padding-top: 300px;
+  padding-top: 255px;
   padding-left: 60px;
   font-size: 18px;
   font-family: "HelveticaNeue-Light";
@@ -152,7 +152,7 @@
   position: relative;
   z-index: 95;
   left: 114px;
-  top:300px;
+  top:273px;
 /*  border: 1px solid red;*/
   margin-left: 0px;
   font-family: "HelveticaNeue-Light";
@@ -296,6 +296,11 @@
 .image-holder img 
 {
   padding-right: 8px;
+}
+
+.post_full
+{
+  padding-bottom: 70px;
 }
 
 

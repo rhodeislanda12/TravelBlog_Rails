@@ -1,21 +1,19 @@
 - @posts.each do |post|
-  .row
+  .row.post_full
     .span10
       .full-post-title
         #post-title
           = link_to post.title, post
-          /= post.title #post-subtitle By: Michelle Rittner | Posted on March 17, 2013
-        #keywords-posttitle
+        .post-subtitle By: Michelle Rittner | Posted on March 17, 2013
+        .keywords-posttitle
           %span#no-italic Keywords
           Istanbul, Turkey, Cats
         .indent
           = post.content
         = link_to 'Show', post          
-  %br
-  %br
+        = link_to 'Edit', edit_post_path(post)
 /       %td= post.published_at
 /       %td= link_to 'Show', post
-/       %td= link_to 'Edit', edit_post_path(post)
 /       %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }
 
 / %br
