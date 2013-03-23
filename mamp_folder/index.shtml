@@ -3,28 +3,47 @@
 <div class="container">
     <div class="row">
       <div class="span10">
+<!--first blog post-->
         <div class="full-post-title">
-          <div id="post-title">Post Title</div>
+          <div id="post-title"><a href="#">Post Title</a></div>
           <div class="post-subtitle">By: Michelle Rittner | Posted on March 17, 2013</div>
           <div class="keywords-posttitle">
             <span id="no-italic">Keywords:</span>  Istanbul, Turkey, Cats
           </div>  
         </div>
         <div class="indent"><p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
-          <div class="span8 offset1">
             <div class="post-image">
               <div class="image-holder">
-                <img src="assets/images/post-pic.png">
-              </div>
-              <div class="caption">
-                <p>Caption here.</p>
-              </div>  
+                <a href="#"><img src="assets/images/post-pic.png"></a>
+                <a href="#"><img src="assets/images/post-pic.png"></a>
+              </div> 
             </div> 
-          </div>
           <div class="span10"> 
-          <p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
+          <p class="blog-padding">Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. <a href="#">Read More»</a></p>
           </div>
         </div>
+<!--end first blog post-->
+
+<!--second blog post-->
+        <div class="full-post-title">
+          <div id="post-title"><a href="#">Post Title</a></div>
+          <div class="post-subtitle">By: Michelle Rittner | Posted on March 17, 2013</div>
+          <div class="keywords-posttitle">
+            <span id="no-italic">Keywords:</span>  Istanbul, Turkey, Cats
+          </div>  
+        </div>
+        <div class="indent"><p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
+            <div class="post-image">
+              <div class="image-holder">
+                <a href="#"><img src="assets/images/post-pic.png"></a>
+                <a href="#"><img src="assets/images/post-pic.png"></a>
+              </div> 
+            </div> 
+          <div class="span10"> 
+          <p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. <a href="#">Read More»</a></p>
+          </div>
+        </div>
+<!--end second blog post-->
       </div>  
     </div>  
   </div>  
