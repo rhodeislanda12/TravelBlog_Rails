@@ -81,6 +81,12 @@
   color: #555;
 }
 
+#menu-text ul li a 
+{
+  font-family: "HelveticaNeue-Light";
+  font-size: 16px;  
+}
+
 .icons
 {
   padding-left: 20px;
@@ -145,7 +151,7 @@
   height: 100%;
   position: relative;
   z-index: 95;
-  left: 351px;
+  left: 114px;
   top:300px;
 /*  border: 1px solid red;*/
   margin-left: 0px;
