@@ -67,7 +67,7 @@
 #side-contain
 {
   width: 250px;
-  height: 100%;
+  min-height: 2000px;  
   position: absolute;
   z-index: 99;
   border-right: 15px solid #EEE;
@@ -85,11 +85,11 @@
   color: #555;
 }
 
-#icon-contain
+.icons
 {
   padding-left: 20px;
   padding-top: 20px;
-  width: 120px;
+  width: 125px;
   height: 50px;
   position: relative;
   display: block;
@@ -156,7 +156,7 @@
   font-family: "HelveticaNeue-Light";
 }
 
-#post-title
+#post-title a
 {
   font-size: 60px;
   font-family: "HelveticaNeue";
@@ -192,13 +192,12 @@
 {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 9px 9px 0px 9px;
-  border: 1px solid #CCC;
+  float: left;
 }
 
 .image-holder
 {
-  width: 600px;
+  width: 800px;
   height: 460px;
 }
 
@@ -207,3 +206,94 @@
   font-size: 12px;
   text-indent: 0px;
 }
+
+
+.facebook
+{
+  width: 22.75pt;
+  height: 22.75pt;
+  float: left;
+  display: block;
+  background:transparent url('facebook_icon.svg') center top no-repeat;
+}
+
+.facebook:hover 
+{
+  background-color: transparent;
+  background-image: url('facebook_icon-blue.svg');
+}
+
+.twitter
+{
+  width: 22.75pt;
+  height: 22.75pt;
+  float: left;
+  display: block;
+  background:transparent url('twitter_icon.svg') center top no-repeat;
+}
+
+.twitter:hover 
+{
+  background-color: transparent;
+  background-image: url('twitter_icon-blue.svg');
+}
+
+.stumble
+{
+  width: 22.75pt;
+  height: 22.75pt;
+  float: left;
+  display: block;
+  background:transparent url('stumble_icon.svg') center top no-repeat;
+}
+
+.stumble:hover 
+{
+  background-color: transparent;  
+  background-image: url('stumble_icon-blue.svg');
+}
+
+.rss
+{
+  width: 22.75pt;
+  height: 22.75pt;
+  float: left;
+  display: block;
+  background:transparent url('rss_icon.svg') center top no-repeat;
+}
+
+.rss:hover 
+{
+  background-color: transparent;
+  background-image: url('rss_icon-blue.svg');
+}
+
+#menu-text li a:hover
+{
+  background-color: transparent;  
+  color: #6495ED;
+}
+
+#post-title a:hover
+{
+  background-color: transparent;  
+  color: #6495ED;
+  text-decoration: none;
+}
+
+.blog-padding
+{
+  padding-bottom: 100px;
+}
+
+.indent a
+{
+  color: #6495ED;
+}
+
+.image-holder img 
+{
+  padding-right: 8px;
+}
+
+

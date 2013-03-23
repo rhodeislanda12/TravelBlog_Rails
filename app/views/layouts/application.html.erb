@@ -1,16 +1,43 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>TravelBlogOnrails</title>
+  <title>Happily Adrift</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div id="doc-contain">
+  <div id="header-contain">
+    <div id="logo">
+      <a href="#">
+        <%= image_tag "paper-airplane.svg" %>
+      </a>
+    </div>  
+    <div id="header-text">
+      <p>Happily Adrift</p>
+    </div>  
+  </div>
+  <div id="side-contain">
+    <div id="menu-text">
+      <ul>
+        <li class="brackets"><a href="#">Home</a></li>
+        <li class="brackets"><a href="#">About</a></li>
+        <li class="brackets"><a href="#">Places</a></li>
+        <li class="brackets"><a href="#">Food</a></li>
+        <li class="brackets"><a href="#">Resources</a></li>
+        <li class="brackets"><a href="#">Contact</a></li>
+      </ul>  
+      <div class="icons">
+        <a href="http://www.facebook.com/michelle.rittner" class="facebook" title="Facebook Link"></a>
+        <a href="https://twitter.com/mrittner" class="twitter" title="Twitter Link"></a>
+        <a href="#" class="stumble" title="Stumble Link"></a>
+        <a href="#" class="rss" title="RSS Link"></a>
+      </div>
+    </div>  
+  </div>  
+    <%= yield %>
 
 </body>
 </html>

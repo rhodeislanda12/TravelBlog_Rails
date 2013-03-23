@@ -1,13 +1,31 @@
+
+.container
+  .row
+    .span10
+      .full-post-title
+        #post-title Post Title
+        #post-subtitle By: Michelle Rittner | Posted on March 17, 2013
+        #keywords-posttitle
+          %span#no-italic Keywords
+          Istanbul, Turkey, Cats
+      .indent
+        %p
+          Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.
+        .span8.offset1
+          .post-image
+            .image-holder
+              / %img{:src => "assets/images/post-pic.png"}
+            .caption Caption Here
+      .span10
+        %p
+          Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.
+
+
+
+
 %h1 Listing posts
 
 %table
-  %tr
-    %th Title
-    %th Content
-    %th Published at
-    %th
-    %th
-    %th
 
   - @posts.each do |post|
     %tr
