@@ -2,9 +2,8 @@
 
 <div class="container">
 	<div class="row post-row">
-		<!--blog posts start below-->
+		<!--post starts here-->
 		<div class="span8">
-			<!--one blog post-->
 			<div class="full-post-title">
 				<h1>Post Title</h1>
 				<div class="post-subtitle">By: Michelle Rittner | Posted on March 17, 2013</div>
@@ -24,7 +23,7 @@
 				<p>Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum.</p>
 				</div>
 		</div>
-		<!--end all posts-->
+		<!--end posts-->
 		<aside class= "span4">
 			<div class="row">
 				<div class="widget span 4">
@@ -57,7 +56,6 @@
 			</div>	
 		</aside>	
 	</div>
-
 </div>	
 
 
