@@ -158,14 +158,6 @@
   font-family: "HelveticaNeue-Light";
 }
 
-#post-title a
-{
-  font-size: 60px;
-  font-family: "HelveticaNeue";
-  padding-top: 10px;
-  padding-bottom: 20px;
-  color: #555;
-}
 
 .post-subtitle
 {
@@ -188,6 +180,8 @@
 .indent p
 {
   text-indent: 50px;
+  font-family: "HelveticaNeue-Light";
+
 }
 
 .post-image
@@ -275,6 +269,17 @@
   background-color: transparent;  
   color: #6495ED;
 }
+
+#post-title 
+{
+  font-size: 60px;
+  font-family: "HelveticaNeue";
+  padding-bottom: 20px;  
+  background-color: transparent;  
+  text-decoration: none;
+  color: #555;
+}
+
 
 #post-title a:hover
 {
