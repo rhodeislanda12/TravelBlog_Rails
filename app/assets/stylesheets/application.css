@@ -11,3 +11,199 @@
  *= require_self
  *= require_tree .
  */
+
+
+@font-face {
+    font-family: "Didot";
+    src: url("../fonts/TheanoDidot_Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cedarville";
+    src: url("../fonts/Cedarville-Cursive.ttf") format("truetype");
+}
+
+#doc-contain
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 100;
+}
+
+#logo
+{
+  position: absolute;
+  margin-top: 54px;
+  margin-left: 67px;
+}
+
+#header-contain
+{
+  width: 100%;
+  height: 170px;
+  position: absolute;
+  z-index: 99;
+  border-bottom: 15px solid #EEE;
+  border-bottom-style: double;
+
+}
+
+#header-text
+{
+  position: absolute;
+  width:100%;
+  white-space: nowrap;
+  z-index: 98;
+  left: 350px;
+  padding-top: 124px;
+  font-size: 120px;
+  color: #555;
+  font-family: "Cedarville";
+}
+
+#side-contain
+{
+  width: 250px;
+  height: 100%;
+  position: absolute;
+  z-index: 99;
+  border-right: 15px solid #EEE;
+  border-right-style: double;
+  background: transparent;
+
+}
+
+#menu-text
+{
+  padding-top: 300px;
+  padding-left: 60px;
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  color: #555;
+}
+
+#icon-contain
+{
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  display: block;
+  z-index: 97;
+}
+
+#menu-text li a
+{
+  color: #555;
+  text-decoration: none;
+  position: relative;
+  transition: all .3s; /* Vendor prefixes required in your code. */
+}
+
+#menu-text li a:after, a:before
+{
+  transition: all .3s; /* Once again, vendor prefixes required. */
+}
+
+.brackets:before, .brackets:after {
+  position: relative;
+  color: transparent;/* It makes the curly brackets invisible at the beginning.*/
+}
+.brackets:hover:before, .brackets:hover:after {
+  color: #555; /* Or whatever colour you want. */
+}
+
+/* For movement */
+.brackets:before {
+  content: "{";
+  left: -20px;
+}
+.brackets:hover:before {
+  left: -15px;
+}
+.brackets:after {
+  content: "}";
+  right: -20px;
+}
+.brackets:hover:after {
+  right: -15px;
+}
+
+#menu-text li 
+{
+    line-height: 25px;
+}
+
+#menu-text ul 
+{
+  list-style-type: none;
+}
+
+.container
+{
+  width: 60%;
+  height: 100%;
+  position: relative;
+  z-index: 95;
+  left: 351px;
+  top:300px;
+/*  border: 1px solid red;*/
+  margin-left: 0px;
+  font-family: "HelveticaNeue-Light";
+}
+
+#post-title
+{
+  font-size: 60px;
+  font-family: "HelveticaNeue";
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #555;
+}
+
+.post-subtitle
+{
+  font-size: 10px;
+}
+
+.keywords-posttitle
+{
+  font-size: 10px;
+  font-style: italic;
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 20px;
+}
+
+.no-italic
+{
+  font-style: none;
+}
+
+.indent p
+{
+  text-indent: 50px;
+}
+
+.post-image
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 9px 9px 0px 9px;
+  border: 1px solid #CCC;
+}
+
+.image-holder
+{
+  width: 600px;
+  height: 460px;
+}
+
+.caption p
+{
+  font-size: 12px;
+  text-indent: 0px;
+}
