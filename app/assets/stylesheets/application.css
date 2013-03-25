@@ -274,10 +274,11 @@
 {
   font-size: 60px;
   font-family: "HelveticaNeue";
-  padding-bottom: 20px;  
+  padding-bottom: 10px;  
   background-color: transparent;  
   text-decoration: none;
   color: #555;
+  line-height: 48px;
 }
 
 
