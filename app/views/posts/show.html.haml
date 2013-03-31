@@ -6,14 +6,13 @@
       = @post.title
     .post-subtitle By: Michelle Rittner | Posted on #{ @post.published_at.strftime("%A, %B %d, %Y") }
     .keywords-posttitle
-      %span#no-italic Keywords
-      Istanbul, Turkey, Cats
+      %span#keywords-italic 
+        Keywords:
+      = @post.tags.join(", ")
+      / Istanbul, Turkey, Cats
     .indent
       %p
         = @post.content
-
-      %b Published at:
-      = @post.published_at
 
       = link_to 'Edit', edit_post_path(@post)
       \|

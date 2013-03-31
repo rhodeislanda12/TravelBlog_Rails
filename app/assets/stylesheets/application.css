@@ -167,9 +167,13 @@
 .keywords-posttitle
 {
   font-size: 10px;
-  font-style: italic;
   border-bottom: 1px solid #DDD;
   margin-bottom: 20px;
+}
+
+#keywords-italic 
+{
+  font-style: italic;  
 }
 
 .no-italic

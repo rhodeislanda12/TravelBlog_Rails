@@ -23,6 +23,10 @@ end
 
 gem 'jquery-rails'
 
+gem 'acts-as-taggable-on', '~> 2.3.1' #specifiy the name for use with rails 3.1
+
+gem 'simple_form'
+
 # gem 'monologue', :path => "gems/monologue"
 
 # To use ActiveModel has_secure_password

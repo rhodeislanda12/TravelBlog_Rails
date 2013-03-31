@@ -40,7 +40,13 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
   def create
+    all_tags = params[:post].delete(:tags).split(",")
+
+    puts "***********************"
+    puts all_tags
+
     @post = Post.new(params[:post])
+    @post.tag_list = all_tags
 
     respond_to do |format|
       if @post.save
