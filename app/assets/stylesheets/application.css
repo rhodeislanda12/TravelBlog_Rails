@@ -151,8 +151,8 @@
   height: 100%;
   position: relative;
   z-index: 95;
-  left: 114px;
-  top:273px;
+  left: 20px;
+  top:257px;
 /*  border: 1px solid red;*/
   margin-left: 0px;
   font-family: "HelveticaNeue-Light";
@@ -321,4 +321,19 @@
 #post_title
 {
   width: 800px;
+}
+
+#post_tags
+{
+  width: 800px;
+  height: 50px;
+}
+
+.header
+{
+  font-size: 40px;
+  font-family: "HelveticaNeue";
+  color: #555;
+  padding-bottom: 20px;
+  padding-top: 11px;
 }
