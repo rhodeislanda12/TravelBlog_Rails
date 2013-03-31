@@ -4,7 +4,7 @@
   .span10
     #post-title
       = @post.title
-    .post-subtitle By: Michelle Rittner | Posted on March 17, 2013
+    .post-subtitle By: Michelle Rittner | Posted on #{ @post.published_at.strftime("%A, %B %d, %Y") }
     .keywords-posttitle
       %span#no-italic Keywords
       Istanbul, Turkey, Cats
