@@ -313,4 +313,12 @@
   padding-bottom: 70px;
 }
 
+#post_content
+{
+  width: 800px;
+}
 
+#post_title
+{
+  width: 800px;
+}
