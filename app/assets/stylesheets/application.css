@@ -349,7 +349,32 @@
   line-height: 122%;
 }
 
-#about_text img 
+#about_image_holder 
 {
-margin-right: 100px;
+float: left;
+}
+
+#left_image
+{
+  padding-right: 7px;
+  display: inline-block;
+}
+
+#right_image
+{
+  /*padding-bottom: 7px;*/
+  width: 285px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#bottom_image
+{
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  width: 285px;
+  left: 652px;
+  top: 422px;
 }
