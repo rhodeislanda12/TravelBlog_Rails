@@ -378,3 +378,10 @@ float: left;
   left: 652px;
   top: 422px;
 }
+
+span.roll
+{
+  -webkit-box-shadow: 0px 0px 4px #000;
+  -moz-box-shadow: 0px 0px 4px  #000;
+  box-shadow: 0px 0px 4px  #000;
+}

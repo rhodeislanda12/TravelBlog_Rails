@@ -1,11 +1,38 @@
 .header
-  About Us
+  { About Us }
 #about_text
   %p We are currently living in New York City.  This blog will serve as a travel journal, allowing our friends and family back home to track our adventures.
 #about_image_holder
   #left_image
+    %span.roll#left_span
     = image_tag "about-pic.jpg"
   #right_image
+    %span.roll#right_span
     = image_tag "blake-about.jpg"
   #bottom_image
+    %span.roll#bottom_span
     = image_tag "michelle-about.jpg"
+
+:javascript
+  $(function() {
+  // OPACITY OF BUTTON SET TO 0%
+  $(".roll").css("opacity","0");
+   
+  // ON MOUSE OVER
+  $(".roll").hover(function () {
+   
+  // SET OPACITY TO 70%
+  $(this).stop().animate({
+  opacity: .7
+  }, "slow");
+  },
+   
+  // ON MOUSE OUT
+  function () {
+   
+  // SET OPACITY BACK TO 50%
+  $(this).stop().animate({
+  opacity: 0
+  }, "slow");
+  });
+  });
