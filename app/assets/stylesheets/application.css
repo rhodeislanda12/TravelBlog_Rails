@@ -79,12 +79,13 @@
   font-size: 18px;
   font-family: "HelveticaNeue-Light";
   color: #555;
+  letter-spacing: .1em;
 }
 
 #menu-text ul li a 
 {
   font-family: "HelveticaNeue-Light";
-  font-size: 17px;  
+  font-size: 18px;  
 }
 
 .icons
@@ -185,7 +186,7 @@
 {
   text-indent: 50px;
   font-family: "HelveticaNeue-Light";
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 0.1em;
   line-height: 122%;
 }
@@ -336,7 +337,7 @@
   font-size: 40px;
   font-family: "HelveticaNeue";
   color: #555;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 11px;
 }
 
@@ -384,4 +385,44 @@ span.roll
   -webkit-box-shadow: 0px 0px 4px #000;
   -moz-box-shadow: 0px 0px 4px  #000;
   box-shadow: 0px 0px 4px  #000;
+}
+
+#resources_text p 
+{
+  font-size: 26px;
+  font-family: "HelveticaNeue-Light";
+  color: #555;
+  letter-spacing: .1em;
+  line-height: 122%;
+}
+
+#resources_last_item
+{
+  padding-bottom: 9px;
+}
+
+#resources_text a
+{
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  color: #555;
+  letter-spacing: .1em;
+  line-height: 122%;
+}
+
+#resources_text
+{
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 15px;
+}
+
+#resources_text a:hover 
+{
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  color: #6495ED;
+  letter-spacing: .1em;
+  line-height: 122%;
+  background: transparent;
+  text-decoration: none;
 }
