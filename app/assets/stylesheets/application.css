@@ -461,3 +461,23 @@ span.roll#bottom_span
   background: transparent;
   text-decoration: none;
 }
+
+#contact_text p 
+{
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  color: #555;
+  letter-spacing: .1em;
+  line-height: 122%;
+}
+
+#contact_text a
+{
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  letter-spacing: .1em;
+  line-height: 122%;
+  color: #6495ED;
+  text-decoration: none;
+  background: transparent;
+}
