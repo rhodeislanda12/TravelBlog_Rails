@@ -434,7 +434,7 @@ span.roll#bottom_span
   padding: 20px;
 }
 
-#resources_text p 
+#subheader_text p 
 {
   font-size: 26px;
   font-family: "HelveticaNeue-Light";
@@ -443,12 +443,14 @@ span.roll#bottom_span
   line-height: 122%;
 }
 
-#resources_last_item
+#subheader_last_item
 {
   padding-bottom: 9px;
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 15px;
 }
 
-#resources_text a
+#subheader_text a
 {
   font-size: 18px;
   font-family: "HelveticaNeue-Light";
@@ -457,13 +459,7 @@ span.roll#bottom_span
   line-height: 122%;
 }
 
-#resources_text
-{
-  border-bottom: 1px solid #DDD;
-  margin-bottom: 15px;
-}
-
-#resources_text a:hover 
+#subheader_text a:hover 
 {
   font-size: 18px;
   font-family: "HelveticaNeue-Light";
