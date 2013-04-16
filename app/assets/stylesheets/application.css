@@ -41,7 +41,7 @@
   height: 170px;
   position: absolute;
   z-index: 99;
-  border-bottom: 15px solid #EEE;
+  border-bottom: 15px solid #CDF1ED;
   border-bottom-style: double;
 
 }
@@ -55,7 +55,7 @@
   left: 350px;
   padding-top: 124px;
   font-size: 120px;
-  color: #555;
+  color: #6495ED;
   font-family: "Cedarville";
 }
 
@@ -66,7 +66,7 @@
   min-height: 2000px;  
   position: absolute;
   z-index: 99;
-  border-right: 15px solid #EEE;
+  border-right: 15px solid #CDF1ED;
   border-right-style: double;
   background: transparent;
 
@@ -85,7 +85,7 @@
 #menu-text ul li a 
 {
   font-family: "HelveticaNeue-Light";
-  font-size: 18px;  
+  font-size: 16px;  
 }
 
 .icons
@@ -152,7 +152,7 @@
   height: 100%;
   position: relative;
   z-index: 95;
-  left: 20px;
+  left: 101px;
   top:257px;
 /*  border: 1px solid red;*/
   margin-left: 0px;
@@ -186,7 +186,7 @@
 {
   text-indent: 50px;
   font-family: "HelveticaNeue-Light";
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   line-height: 122%;
 }
@@ -279,7 +279,7 @@
 
 #post-title 
 {
-  font-size: 60px;
+  font-size: 50px;
   font-family: "HelveticaNeue";
   padding-bottom: 10px;  
   background-color: transparent;  
@@ -291,8 +291,9 @@
 
 #post-title a:hover
 {
-  background-color: transparent;  
-  color: #6495ED;
+  color: #555;
+  background-color: transparent;
+  text-shadow: 0 0 20px #EEE;
   text-decoration: none;
 }
 
@@ -334,7 +335,7 @@
 
 .header
 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "HelveticaNeue";
   color: #555;
   padding-bottom: 30px;
@@ -343,16 +344,18 @@
 
 #about_text p
 {
-  font-size: 18px;
-  font-family: "HelveticaNeue-Light";
-  color: #555;
-  letter-spacing: .1em;
-  line-height: 122%;
+font-family: "HelveticaNeue-Light";
+font-size: 14px;
+letter-spacing: 0.1em;
+line-height: 122%;
+color: #555;
 }
 
 #about_image_holder 
 {
 float: left;
+margin-left: 105px;
+margin-top: 30px;
 }
 
 #left_image
@@ -376,14 +379,14 @@ float: left;
   vertical-align: top;
   position: absolute;
   width: 285px;
-  left: 652px;
-  top: 435px;
+  left: 564px;
+  top: 355px;
 }
 
 .roll
 {
   color: #FFFFFF;
-  font-size: 26px;
+  font-size: 23px;
   font-family: "HelveticaNeue-Light";
   letter-spacing: .1em;
   line-height: 122%;
@@ -392,9 +395,9 @@ float: left;
 span.roll#left_span
 {
   background: center center no-repeat #000;
-  height: 593px;
+  height: 400px;
   position: absolute;
-  width: 602px;
+  width: 410px;
   z-index: 10;  
   -webkit-box-shadow: 0px 0px 4px #000;
   -moz-box-shadow: 0px 0px 4px  #000;
@@ -411,9 +414,9 @@ span.roll#left_span
 span.roll#right_span
 {
   background: center center no-repeat #000;
-  height: 272px;
+  height: 169px;
   position: absolute;
-  width: 245px;
+  width: 160px;
   z-index: 10;  
   -webkit-box-shadow: 0px 0px 4px #000;
   -moz-box-shadow: 0px 0px 4px  #000;
@@ -424,9 +427,9 @@ span.roll#right_span
 span.roll#bottom_span
 {
   background: center center no-repeat #000;
-  height: 272px;
+  height: 178px;
   position: absolute;
-  width: 245px;
+  width: 160px;
   z-index: 10;  
   -webkit-box-shadow: 0px 0px 4px #000;
   -moz-box-shadow: 0px 0px 4px  #000;
