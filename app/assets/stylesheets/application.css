@@ -41,7 +41,7 @@
   height: 170px;
   position: absolute;
   z-index: 99;
-  border-bottom: 15px solid #CDF1ED;
+  border-bottom: 15px solid #FFDDFF;
   border-bottom-style: double;
 
 }
@@ -66,7 +66,7 @@
   min-height: 2000px;  
   position: absolute;
   z-index: 99;
-  border-right: 15px solid #CDF1ED;
+  border-right: 15px solid #FFDDFF;
   border-right-style: double;
   background: transparent;
 
