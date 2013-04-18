@@ -335,7 +335,7 @@
 
 .header
 {
-  font-size: 50px;
+  font-size: 45px;
   font-family: "HelveticaNeue";
   color: #555;
   padding-bottom: 30px;
@@ -439,7 +439,7 @@ span.roll#bottom_span
 
 #subheader_text p 
 {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "HelveticaNeue-Light";
   color: #555;
   letter-spacing: .1em;
@@ -455,7 +455,7 @@ span.roll#bottom_span
 
 #subheader_text a
 {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "HelveticaNeue-Light";
   color: #555;
   letter-spacing: .1em;
@@ -464,7 +464,7 @@ span.roll#bottom_span
 
 #subheader_text a:hover 
 {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "HelveticaNeue-Light";
   color: #6495ED;
   letter-spacing: .1em;
@@ -475,16 +475,16 @@ span.roll#bottom_span
 
 #contact_text p 
 {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "HelveticaNeue-Light";
   color: #555;
   letter-spacing: .1em;
-  line-height: 122%;
+  line-height: 0px;
 }
 
 #contact_text a
 {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "HelveticaNeue-Light";
   letter-spacing: .1em;
   line-height: 122%;
