@@ -41,9 +41,7 @@
   height: 170px;
   position: absolute;
   z-index: 99;
-  border-bottom: 15px solid #FFDDFF;
-  border-bottom-style: double;
-
+  border-bottom: 15px solid #FFE3F6;
 }
 
 #header-text p
@@ -53,9 +51,9 @@
   white-space: nowrap;
   z-index: 98;
   left: 350px;
-  padding-top: 124px;
+  padding-top: 126px;
   font-size: 120px;
-  color: #6495ED;
+  color: #555;
   font-family: "Cedarville";
 }
 
@@ -66,10 +64,18 @@
   min-height: 2000px;  
   position: absolute;
   z-index: 99;
-  border-right: 15px solid #FFDDFF;
-  border-right-style: double;
+  border-right: 12px solid #DDE5FF;
   background: transparent;
+}
 
+#side-contain-inner
+{
+  width: 235px;
+  min-height: 2000px;  
+  position: absolute;
+  z-index: 99;
+  border-right: 6px solid #FFFFD9;
+  background: transparent;
 }
 
 #menu-text
@@ -274,7 +280,7 @@
 #menu-text li a:hover
 {
   background-color: transparent;  
-  color: #6495ED;
+/*  color: #6495ED;*/
 }
 
 #post-title 
@@ -288,13 +294,16 @@
   line-height: 48px;
 }
 
+#post-title a:visited
+{
+  color: #555;
+}
 
 #post-title a:hover
 {
   color: #555;
   background-color: transparent;
-  text-shadow: 0 0 20px #EEE;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .blog-padding
@@ -466,7 +475,7 @@ span.roll#bottom_span
 {
   font-size: 14px;
   font-family: "HelveticaNeue-Light";
-  color: #6495ED;
+  color: #CCC;
   letter-spacing: .1em;
   line-height: 122%;
   background: transparent;
@@ -488,7 +497,7 @@ span.roll#bottom_span
   font-family: "HelveticaNeue-Light";
   letter-spacing: .1em;
   line-height: 122%;
-  color: #6495ED;
-  text-decoration: none;
+  color: #555;
+  text-decoration: underline;
   background: transparent;
 }
