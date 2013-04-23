@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
   <title>Happily Adrift</title>
+  <link rel="icon" type="image/ico" href="favicon.ico">
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <link rel="icon" type="image/ico" href="assets/images/favicon.ico">
 </head>
 <body>
 
 <div id="doc-contain">
   <div id="header-contain">
-    <div id="logo">
-      <a href="#">
-        <%= image_tag "paper-airplane.svg" %>
-      </a>
-    </div>  
-    <div id="header-text">
-      <p>Happily Adrift</p>
+    <div id="header-inside-contain">
+      <div id="logo">
+        <a href="#">
+          <%= image_tag "paper-airplane.svg" %>
+        </a>
+      </div>  
+      <div id="header-text">
+        <p>Happily Adrift</p>
+      </div>  
     </div>  
   </div>
   <div id="side-contain">
@@ -41,7 +43,7 @@
       </div>
     </div>  
   </div>  
-    <div class="container">
+    <div class="container-post">
       <%= yield %>
     </div>
 

@@ -35,13 +35,22 @@
   margin-left: 67px;
 }
 
-#header-contain
+#header-inside-contain
 {
   width: 100%;
   height: 170px;
   position: absolute;
-  z-index: 99;
+  z-index: 91;
   border-bottom: 15px solid #FFE3F6;
+}
+
+#header-contain
+{
+  width: 100%;
+  height: 189px;
+  position: absolute;
+  z-index: 9;
+  border-bottom: 5px solid #EEE0E5;
 }
 
 #header-text p
@@ -63,8 +72,9 @@
   width: 250px;
   min-height: 2000px;  
   position: absolute;
-  z-index: 99;
-  border-right: 12px solid #DDE5FF;
+  z-index: 90;
+  border-right: 12px solid rgba(219, 220, 255, .5);
+/*  border-right: 12px solid #DDE5FF;*/
   background: transparent;
 }
 
@@ -73,8 +83,9 @@
   width: 235px;
   min-height: 2000px;  
   position: absolute;
-  z-index: 99;
-  border-right: 6px solid #FFFFD9;
+  z-index: 92;
+  border-right: 7px solid rgba(255, 255, 180, .5);
+/*  border-right: 7px solid #FFFFD9;*/
   background: transparent;
 }
 
@@ -152,19 +163,19 @@
   list-style-type: none;
 }
 
-.container
+.container-post
 {
   width: 60%;
   height: 100%;
   position: relative;
   z-index: 95;
-  left: 101px;
+  left: 350px;
   top:257px;
 /*  border: 1px solid red;*/
   margin-left: 0px;
+  margin-right: 0px;
   font-family: "HelveticaNeue-Light";
 }
-
 
 .post-subtitle
 {
